@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Acceuil.css">
+    <title>Noël</title>
+</head>
+<body>
+     <h2>"Bienvenue dans la magie de Noël, où chaque instant scintille de joie, de paix et d'amour"</h2>
+     <div class="container">
+        <div class="poeme">
+            <pre><i>
+                Petit ou grand
+                Seul ou en famille
+                Vivez la magie de Noël 
+                Acceuillez et ressentez en vous cet esprit
+                <strong>Oser pour briller</strong> comme l'étoile brillante sur les sapins
+                Une nouvelle ère pleine d'aventure et d'expérience s'ouvre à vous
+            </i></pre>
+        </div>
+        <footer><p>Lien du dépôt : <a href="https://github.com/Mazurie07/chrismas.git" target="_blank">Sur github</a></p></footer>
+
+        
+    <button class="noel" onclick="playMusic()">Joyeux Noël</button>
+    <audio id="audio" src="audio/Feliz Navidad.m4a" type="audio/mp4" autoplay></audio>
+
+    <script>
+        function playMusic(){
+            var audio=document.getElementById("audio")
+            audio.play();
+        }
+    </script>
+
+</body>
+</html>
